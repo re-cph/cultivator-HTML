@@ -1,10 +1,10 @@
 # Site settings
-title: "Vi er Re:"
-email: "info@re-cph.com"
+title: "Cultivator - return on behaviour"
+email: "info@cultivator.com"
 description: > # this means to ignore newlines until "baseurl:"
-  Meget mere end hjemmesider - Digital samarbejdspartner med fokus på engagement, forståelse og kvalitet.
+  Cultivator hjælper din virksomhed videre - din samarbejdspartner med fokus på indlevelse, mod og erfaring.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.recopenhagen.com" # the base hostname & protocol for your site
+url: "http://www.cultivator.com" # the base hostname & protocol for your site
 twitter_username: recph
 github_username:  re-cph
 

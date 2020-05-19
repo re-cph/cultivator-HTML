@@ -28,8 +28,8 @@ MEDIA QUERIES
 ------------------------------------------------------------*/
 
 .logo{
-    margin-top:28px;
-    width: 80px;
+    margin-top:20px;
+    width: 65px;
     }
 
 /*-----------------------------------------GENERAL SECTION--------------------------------------------------*/
@@ -437,10 +437,10 @@ ul, ol {
 	background-attachment: scroll;
 }
 .bg1 .para-img{
-  background-image: url("../images/bg/koed-og-flaesk.jpg");
+  background-image: url("../images/slider/cultivator-statue.jpg");
 }
 .bg2 .para-img{
-  background-image: url("../images/bg/grafitti.jpg");
+  background-image: url("../images/slider/cultivator-statue.jpg");
 }
 .bg3 .para-img{
   background-image: url("../images/bg/3.jpg");
@@ -823,9 +823,11 @@ input:focus, textarea:focus {
 #map_canvas img {
     max-width: inherit;
 }
+
+
 .box-map {
     line-height: 1;
-    padding: 20px 0 20px 20px;
+    padding: 20px 15px 20px 20px;
 	width:100%;
 	text-align:center;
 }
