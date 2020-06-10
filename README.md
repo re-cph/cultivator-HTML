@@ -10,9 +10,15 @@ HTML Edit files in these folder:
 /_layouts/*.html_
 
 CSS Edit files in these folder:
+---------------------------
+_sass/*_
 
 
 Don't edit here:
 ----------------
 /_site_
 (This folder is a rendered folder)
+
+Deployment
+----------
+No need to deplay rendered css

@@ -116,6 +116,9 @@ ul, ol {
 	margin: 0;
 	padding: 0 0 0 20px;
 }
+#why ul{
+    list-style-position:inside;
+}
 .clearboth {
 	clear: both;
 }
@@ -512,7 +515,7 @@ ul, ol {
     display: block;
     font-size: 11px;
     letter-spacing: 3px;
-    margin: 0 2px;
+    margin: 5px;
     padding: 8px 20px;
     text-transform: uppercase;
 }
