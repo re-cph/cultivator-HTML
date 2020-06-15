@@ -1117,4 +1117,7 @@ input:focus, textarea:focus {
     font-size: 23px;
 }
 }
+@media (min-width:550px){
+    .mobile-breaker{display:none;}
+}
 
