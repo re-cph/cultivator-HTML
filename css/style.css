@@ -168,7 +168,8 @@ ul, ol {
 .menu-box {
 	text-align: right;
 }
-.navigation {
+.navigation,
+.language {
 	list-style: none outside none;
 	margin: 0;
 	overflow: hidden;
@@ -178,16 +179,19 @@ ul, ol {
 .navigation li {
 	float: left;
 }
-.navigation li a {
+.navigation li a,
+.language li a {
 	color: #ffffff;
 	display: block;
 	font-size: 14px;
 	font-weight: bold;
-	padding: 30px 20px;
+	padding: 30px 11px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
-.navigation .current > a,.navigation li a:hover {
+.navigation .current > a,
+.navigation li a:hover,
+.language li a:hover{
     color: #bfbfbf;
 }
 .for-sticky {

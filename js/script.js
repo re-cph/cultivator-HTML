@@ -21,6 +21,7 @@
 
 	//create menu for tablet/mobile
 	$(".menu-box .navigation").clone(false).find("ul,li").removeAttr("id").remove(".sub-menu").appendTo($(".mobile-menu"));
+    $(".menu-box .language").clone(false).find("ul,li").removeAttr("id").remove(".sub-menu").appendTo($(".mobile-menu"));
 	$(".mobile-menu .sub-menu").remove();
 	$('.mobile-menu').on('show.bs.collapse', function () {
 		$('body').on('click', function () {
@@ -186,7 +187,7 @@
                 var self = this;
                 var marker = self.addMarker({
                     'position': this.get('map').getCenter(),
-                    icon: 'images/office-building.png',
+                    icon: '/images/office-building.png',
                 }).click(function () {
                     self.openInfoWindow({
                         'content': $('.map-content').html()
