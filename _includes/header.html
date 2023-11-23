@@ -6,67 +6,81 @@
                 <div class="col-md-2 col-xs-6 logo">
                   <a href="/"><img src="/images/logo-transp.png" alt="logo"></a>
                 </div><!--/.logo-->
-                <div class="col-md-10 menu-box hidden-xs hidden-sm">
-                    <ul class="language">
-                        <li>
-                            {% if page.language == "en" %}
-                                <a href="/">DA</a>
-                            {% else %}
-                                <a href="/en">EN</a>
-                            {% endif %} 
-                        </li>
-                    </ul>
-                    <ul class="navigation">
-                        <li><a class="scroll" href="#home">Start</a></li>
-                        <li><a class="scroll" href="#why">
-                            {% if page.language == "en" %}
-                                Why
-                            {% else %}
-                                Hvorfor
-                            {% endif %}
-                        Cultivator?</a></li>
-                        <li>
-                            <a class="scroll" href="#method">
+                {% if (page.url != "/kurser/index.html")  %}
+                    <div class="col-md-10 menu-box hidden-xs hidden-sm">
+                        <ul class="language">
+                            <li>
                                 {% if page.language == "en" %}
-                                    Method
+                                    <a href="/">DA</a>
                                 {% else %}
-                                    Metode
-                                {% endif %}     
-                            </a></li>
-                        <li>
-                            <a class="scroll" href="#partners">
-                                {% if page.language == "en" %}
-                                    Partners
-                                {% else %}
-                                    Samarbejder
-                                {% endif %}                        
-                            </a></li>
-                        <li>
-                            <a class="scroll" href="#works">
-                                {% if page.language == "en" %}
-                                    Customers
-                                {% else %}
-                                    Kunder
-                                {% endif %}      
-                            </a>
-                        </li>
-                        <li>
-                            <a class="scroll" href="#contact">
-                                {% if page.language == "en" %}
-                                    Contact
-                                {% else %}
-                                    Kontakt
+                                    <a href="/en">EN</a>
                                 {% endif %} 
-                            </a>
-                        </li>
-                    </ul>
-                </div><!--/.menu-box-->
-                <div class="box-mobile hidden-lg hidden-md">
-                    <div class="menu-btn" data-toggle="collapse" data-target=".nav-collapse">
-                      <span class="fa fa-bars"></span>
-                    </div>
-                    <ul class="nav-collapse mobile-menu hidden-lg hidden-md"></ul>
-                </div><!--/.box-mobile-->
+                            </li>
+                        </ul>
+                        <ul class="navigation">
+                            <li><a class="scroll" href="#home">Start</a></li>
+                            <li><a class="scroll" href="#why">
+                                {% if page.language == "en" %}
+                                    About
+                                {% else %}
+                                    Om
+                                {% endif %}
+                                </a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#method">
+                                    {% if page.language == "en" %}
+                                        Method
+                                    {% else %}
+                                        Metode
+                                    {% endif %}     
+                                </a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#partners">
+                                    {% if page.language == "en" %}
+                                        Partners
+                                    {% else %}
+                                        Samarbejder
+                                    {% endif %}                        
+                                </a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#works">
+                                    {% if page.language == "en" %}
+                                        Customers
+                                    {% else %}
+                                        Kunder
+                                    {% endif %}      
+                                </a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#courses">
+                                    {% if page.language == "en" %}
+                                        
+                                    {% else %}
+                                        Kurser
+                                    {% endif %}      
+                                </a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#contact">
+                                    {% if page.language == "en" %}
+                                        Contact
+                                    {% else %}
+                                        Kontakt
+                                    {% endif %} 
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!--/.menu-box-->
+                    <div class="box-mobile hidden-lg hidden-md">
+                        <div class="menu-btn" data-toggle="collapse" data-target=".nav-collapse">
+                          <span class="fa fa-bars"></span>
+                        </div>
+                        <ul class="nav-collapse mobile-menu hidden-lg hidden-md"></ul>
+                    </div><!--/.box-mobile-->
+                {% endif %} 
             </div><!--/.row-->
         </div><!--/.container-->
     </div><!--/.for-sticky-->
