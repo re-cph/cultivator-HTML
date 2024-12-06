@@ -6,6 +6,7 @@
 HTML Edit files in these folder:
 ---------------------------
 /index.html
+/kurser/index.html
 /_includes/*.html_
 /_layouts/*.html_
 
