@@ -172,7 +172,7 @@
     //google map load after all page finish
     $(window).bind("load", function () {
         $('#map_canvas').gmap({
-            'center': '55.9176116,12.4339061',
+            'center': '55.87169847647618,12.361398036683765',
             'zoom': 15,
             scrollwheel: false,
             'disableDefaultUI': false,
